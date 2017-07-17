@@ -13,7 +13,7 @@ public class Person {
 	}
 	
 	public void setBankBalance(int bankBalance){
-		this.bankBalance=bankBalance;
+		this.bankBalance=bankBalance;//(first time this == obj, second time this==obj2)
 	}
 	public void setIsMale(boolean isMale){
 		this.isMale=isMale;
