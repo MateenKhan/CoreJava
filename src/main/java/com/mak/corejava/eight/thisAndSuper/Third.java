@@ -3,6 +3,11 @@ package com.mak.corejava.eight.thisAndSuper;
 //this
 
 class BaseParent {
+	
+	BaseParent(){
+		System.out.println("BaseParent Constructor");
+	}
+	
 	void show() {
 		System.out.println("BaseParent class Method");
 	}
@@ -20,7 +25,7 @@ class DerivedChildren extends BaseParent {
 
 class Third {
 	public static void main(String args[]) {
-		DerivedChildren d = new DerivedChildren();
+		new DerivedChildren();
 		// d.show();
 	}
 }

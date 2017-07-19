@@ -4,6 +4,7 @@ class SynchronizedMethods
 	synchronized void m1()
 	{
 	}
+	
 	static synchronized void m2()
 	{
 	}

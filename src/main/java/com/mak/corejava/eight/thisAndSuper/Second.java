@@ -13,10 +13,14 @@ class DerivedChild extends BaseSuper {
 		super();
 		System.out.println("DerivedChild class Constructor");
 	}
+	
+	void sendMail(String emailid){
+		System.out.println("sending mail to:"+emailid);
+	}
 }
 
 class Second {
 	public static void main(String args[]) {
-		DerivedChild d = new DerivedChild();
+		new DerivedChild().sendMail("jijinrulz@gmail.com");
 	}
 }

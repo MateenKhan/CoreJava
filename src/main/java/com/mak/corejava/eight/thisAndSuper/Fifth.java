@@ -10,8 +10,14 @@ class Derived extends Base {
 	int a = 770;
 
 	Derived() {
+		this(12);
 		this.show();
 	}
+	
+	Derived(int a) {
+		System.out.println("One Arg Contructor");
+	}
+	
 
 	void show() {
 		System.out.println("Derived class value:" + this.a);
@@ -21,6 +27,6 @@ class Derived extends Base {
 
 class Fifth {
 	public static void main(String args[]) {
-		Derived d = new Derived();
+		 new Derived();
 	}
 }

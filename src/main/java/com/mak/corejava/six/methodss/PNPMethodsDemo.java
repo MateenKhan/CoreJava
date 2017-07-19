@@ -21,9 +21,13 @@ class PNPMethodsDemo
 
 		m2(10, 20);
 
-		//p1.m1(20); CE: m1() in PNPMethodsDemo cannot be applied to (int)
-		//m2();CE: m2(int,int) in PNPMethodsDemo cannot be applied to ()
-		//m2(10, 30.45);  CE: m2(int,int) in PNPMethodsDemo cannot be applied to (int,double)
+//		p1.m1(20); //CE: m1() in PNPMethodsDemo cannot be applied to (int)
+//		m2();//CE: m2(int,int) in PNPMethodsDemo cannot be applied to ()
+//		m2(10, 30.45);  //CE: m2(int,int) in PNPMethodsDemo cannot be applied to (int,double)
+		float a = 10.2f;
+		test(a);
 
 	}
+	
+	static void test(double a){}
 }

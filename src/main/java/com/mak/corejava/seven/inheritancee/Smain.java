@@ -16,7 +16,7 @@ class Derived extends Second {
 
 class Smain {
 	public static void main(String args[]) {
-		Derived d = new Derived();
+		Second d = new Derived();
 		d.show();
 	}
 }
